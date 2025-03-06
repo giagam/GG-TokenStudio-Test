@@ -12,8 +12,11 @@ sperimentazione super-basic di applicazione tokens a file library Figma e dirett
   - _dark_
   - _theme A_
   - _theme B_
+- Il set **core** contiene token globali non applicati direttamente agli elementi 
 - I set **semantic**, **light** e **dark** ereditano i token del set **core** 
-- I set **theme A** e **theme A** contengono override di alcuni token contenuti nel set **light** 
+- Il set **semantic** contiene tokens applicati direttamente agli elementi 
+- I set **light** e **dark** contengono solo tokens applicati direttamente agli elementi che incidono sul colore 
+- I set **theme A** e **theme A** contengono override di alcuni token contenuti nei set **semantic**, **light** e **dark** 
 
 ### [Progetto Figma](https://www.figma.com/files/team/963112800667377202/project/347445247/Test-Token-Studio?fuid=707952160462890638) 
 - Il Progetto Figma contiene i seguenti file:
