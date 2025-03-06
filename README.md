@@ -7,11 +7,12 @@ sperimentazione super-basic di applicazione tokens a file library Figma e dirett
 ### File Json
 - Il file **token.json** contiene i seguenti sets:
   - _core_
+  - _semantic_
   - _light_
   - _dark_
   - _theme A_
   - _theme B_
-- I set **light** e **dark** ereditano i token del set **core** 
+- I set **semantic**, **light** e **dark** ereditano i token del set **core** 
 - I set **theme A** e **theme A** contengono override di alcuni token contenuti nel set **light** 
 
 ### [Progetto Figma](https://www.figma.com/files/team/963112800667377202/project/347445247/Test-Token-Studio?fuid=707952160462890638) 
